@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>UMBC IS · Undergraduate Program (Prototype)</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="UMBC Information Systems prototype website for lab assignment.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  .hero {
+    background: linear-gradient(90deg, rgba(0,0,0,.7), rgba(0,0,0,.5)), url('https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1600') center/cover no-repeat;
+    color: #fff;
+    min-height: 46vh;
+    display: flex; align-items: center;
+  }
+  .hero h1 { font-weight: 800; }
+  .stat { border-radius: .75rem; }
+  .card img { object-fit: cover; height: 180px; }
+  .required::after { content:" *"; color: #dc3545; }
+</style>
+
+  </head>
+  <body>
+
+<a class="visually-hidden-focusable position-absolute top-0 start-0 m-2 p-2 bg-light rounded" href="#main">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html" aria-label="UMBC Information Systems prototype home">
+      UMBC IS <span class="text-warning">Prototype</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="undergraduate.html">Undergraduate Program</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <main id="main" class="container py-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Undergraduate Program</li>
+        </ol>
+      </nav>
+
+      <header class="mb-4">
+        <h1 class="h2">B.S. in Information Systems</h1>
+        <p class="lead">A people‑centered computing degree that blends technology, business, and design.</p>
+      </header>
+
+      <section class="row g-4" aria-label="Program highlights">
+        <div class="col-md-6">
+          <div class="p-4 bg-light rounded h-100">
+            <h2 class="h5">What you'll learn</h2>
+            <ul class="mb-0">
+              <li>Databases (SQL, data modeling), systems analysis & design</li>
+              <li>Networking & security fundamentals</li>
+              <li>Web development, UX, and accessibility</li>
+              <li>Project management and teamwork</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 bg-light rounded h-100">
+            <h2 class="h5">Why UMBC IS</h2>
+            <ul class="mb-0">
+              <li>Small classes with hands‑on labs</li>
+              <li>Internships with regional tech employers</li>
+              <li>Student orgs and research opportunities</li>
+              <li>Career‑ready portfolio projects</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5" aria-label="Sample curriculum">
+        <h2 class="h5 mb-3">Sample Curriculum (placeholder)</h2>
+        <div class="table-responsive">
+          <table class="table table-striped align-middle">
+            <thead>
+              <tr>
+                <th scope="col">Area</th>
+                <th scope="col">Example Courses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Foundations</td>
+                <td>IS 147 (Intro to CS in IS), IS 300 (IS Mgmt), STAT 351</td>
+              </tr>
+              <tr>
+                <td>Core</td>
+                <td>IS 310 (Software & Hardware Concepts), IS 410 (Database), IS 436 (Systems Design)</td>
+              </tr>
+              <tr>
+                <td>Applications</td>
+                <td>IS 420 (Networks), IS 451 (Network Design), IS 448 (Web Dev)</td>
+              </tr>
+              <tr>
+                <td>Experience</td>
+                <td>IS 436/Capstone, internships, research (HCC/IS labs)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="row g-4" aria-label="How to get started">
+        <div class="col-lg-7">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="h5">Admissions & Next Steps</h2>
+              <ol class="mb-3">
+                <li>Apply to UMBC (or declare/change major to IS).</li>
+                <li>Complete math placement and prerequisites.</li>
+                <li>Meet with an IS advisor to plan your path.</li>
+                <li>Join student orgs and start a portfolio project.</li>
+              </ol>
+              <a href="contact.html" class="btn btn-primary btn-sm">Meet with advising</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="h6">Advising Hours (placeholder)</h2>
+              <ul class="mb-0">
+                <li>Mon–Thu: 9:00 AM – 4:00 PM</li>
+                <li>Fri: 9:00 AM – 1:00 PM</li>
+                <li>Location: Information Systems Building, Room 2XX</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+<footer class="bg-dark text-light mt-5" aria-label="Footer">
+  <div class="container py-4">
+    <div class="row g-3 align-items-center">
+      <div class="col-md-8">
+        <p class="mb-0 small">
+          <strong>UMBC Information Systems</strong> (Prototype) · 1000 Hilltop Circle, Baltimore, MD 21250 ·
+          <a class="link-warning" href="mailto:is@umbc.edu">is@umbc.edu</a>
+        </p>
+        <p class="mb-0 small">This is a student prototype for a class lab. Content is placeholder only.</p>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <a class="btn btn-outline-light btn-sm" href="contact.html">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
